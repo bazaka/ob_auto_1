@@ -93,7 +93,7 @@ public class OrderProductUnauthorizedTest extends BaseTestClass {
         assertTrue(productName.contains(orderPage.getOrderProductName())); // перевірка, чи модель замовленого продукту така ж сама, як і в його загальній назві
         assertEquals(orderPage.getOrderProductPrice(), productPrice);
 
-        System.out.println("Order product Test successfully completed");
+        System.out.println("Order Product Test successfully completed");
 
 
     }
